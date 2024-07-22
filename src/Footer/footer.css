@@ -1,0 +1,163 @@
+.foots{
+  background: #1f1f1f;
+  position: relative;
+  margin-top: 80px;
+  padding-top: 60px;
+
+}
+.foot{
+  background: #ff7878;
+}
+.subscribe{
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  background: #ffffff;
+  right: 0px;
+  left: 0px;
+  top: -35px;
+  justify-content: space-between;
+  padding: 15px 10px;
+  align-items: center;
+  box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.20);
+}
+.subscribe h1{
+  font-size: 20px;
+  color: #ff0000;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+.sub{
+  padding:  5px;
+  display: flex;
+  background: #ff0000;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: px;
+  width: 500px;
+  align-items: center;
+}
+.sub input{
+  background: transparent;
+  padding: 10px 0px;
+  padding-left: 20px;
+}
+.sub button{
+  padding: 10px 20px;
+  color: #ff0000;
+  font-size: 17px;
+  background: #ffffff;
+  transition: all 0.4s;
+}
+.sub button:hover{
+  color: #aaaaaa;
+}
+.sub input::placeholder{
+  color: #999999;
+  font-size: 17px;
+}
+.foot1{
+  display: flex;
+  margin-top: 50px;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+}
+.quick{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.quick h2{
+  font-size: 22px;
+  color: #ffffff;
+}
+.quic h2{
+  font-size: 22px;
+  color: #ffffff;
+}
+.quick p{
+  font-size: 17px;
+  text-transform: capitalize;
+  color: #dfdfdf;
+}
+.quic p{
+  font-size: 17px;
+  text-transform: capitalize;
+  color: #dfdfdf;
+  margin-top: 10px;
+  transition: all 0.4s;
+}
+.quic p:hover{
+  color: #ff0000;
+}
+.foot_left img{
+  width: 200px;
+}
+.con{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.con span{
+  color: #dfdfdf;
+}
+.con a{
+  color: #dfdfdf;
+}
+.quick img{
+  width: 100px;
+  margin-top: 6px;
+}
+.foot2{
+  background: #1a1a1a;
+  margin-top: 20px;
+  color: #b4b4b4;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px 0px;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width : 750px) {
+  .foot1{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0px;
+    justify-content: center;
+  }
+  .quick .con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0px 20px;
+    padding: 10px;
+    top: -50px;
+  }
+  .sub{
+    margin: 0px 10px;
+    display: none;
+  }
+}
+
+  @media screen and (min-width : 755px) and (max-width : 1023px) {
+    .subscribe{
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+    .foot1{
+      padding: 20px 20px;
+    }
+}
